@@ -1,28 +1,28 @@
 class Ailloy < Formula
   desc "Package manager for AI instructions"
   homepage "https://github.com/nimble-giant/ailloy"
-  version "0.6.28"
+  version "0.6.29"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/nimble-giant/ailloy/releases/download/v#{version}/ailloy-darwin-arm64"
-      sha256 "44832e28ed617ea95d061ad30ce8eea973c4734026b95b118f8b3c4c9c4954ef"
+      sha256 "fa9082919f1cf0734e46888d35f28b3df8c8c38c6d931ef7627b809a719e5579"
     end
     on_intel do
       url "https://github.com/nimble-giant/ailloy/releases/download/v#{version}/ailloy-darwin-amd64"
-      sha256 "4f66aa431c52f17ec9ec2452eb822f2eb42309a004c0afd2ec17363e7bdee354"
+      sha256 "729889aa392ab43e9f975b9d2955ff1d69e88604dbb1d61f7f98c9e339c2cb98"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nimble-giant/ailloy/releases/download/v#{version}/ailloy-linux-arm64"
-      sha256 "be1fc2e9aa1943db4cad610a899d6b5398c1825bd955e86433134cc44c81a514"
+      sha256 "57655ca69f6e80024b96f46a754b7ca71ee3837bd29bd8c38aee98f8fbcde092"
     end
     on_intel do
       url "https://github.com/nimble-giant/ailloy/releases/download/v#{version}/ailloy-linux-amd64"
-      sha256 "182d7403401e180a8a11ad5547b68583b96d749a7f3a2c4e8a4d5021260ecdfa"
+      sha256 "3f67a83e8cb006cfb77a7b58c5a616407742df49253092300e9a1277f3e47a27"
     end
   end
 
